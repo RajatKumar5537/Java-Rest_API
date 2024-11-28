@@ -49,7 +49,7 @@ public class RestAPI {
 	public void putRequest() {
 		HashMap<String, Object> data = new HashMap<String, Object>();
 		data.put("name", "Swarna");
-		data.put("job", "Strudent");
+		data.put("job", "Student");
 		
 				given()
 					.contentType("application/json")

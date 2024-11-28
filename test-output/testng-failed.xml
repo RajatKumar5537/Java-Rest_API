@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAs.Typicode">
+      <class name="Local_RestAPI.DifferentWayToCreatePostRequest">
         <methods>
-          <include name="setup"/>
-          <include name="testPatchRequest"/>
+          <include name="testPostUsingExternal_JSON_Class"/>
         </methods>
-      </class> <!-- RestAs.Typicode -->
+      </class> <!-- Local_RestAPI.DifferentWayToCreatePostRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
