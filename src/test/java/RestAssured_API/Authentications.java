@@ -48,7 +48,7 @@ public class Authentications {
 			.log().all();
 	}
 	
-//	Bearer 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
+
 	@Test(priority = 4)
 	void testBearerTokenAuthntication() {
 		String bearerToken = "paste the beared token";
