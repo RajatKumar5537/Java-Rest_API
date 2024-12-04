@@ -1,4 +1,4 @@
-package RestAssured_API;
+package Local_RestAPI;
 
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
