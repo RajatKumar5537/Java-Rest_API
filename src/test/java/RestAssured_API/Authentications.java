@@ -1,4 +1,4 @@
-package Local_RestAPI;
+package RestAssured_API;
 
 
 import static io.restassured.RestAssured.*;
@@ -51,7 +51,7 @@ public class Authentications {
 //	Bearer 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
 	@Test(priority = 4)
 	void testBearerTokenAuthntication() {
-		String bearerToken = "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";
+		String bearerToken = "paste the beared token";
 		
 		given()
 			.headers("Authorization","Bearer " + bearerToken) 
@@ -88,7 +88,7 @@ public class Authentications {
 	void test_API_Key_Authntication() {
 //		Method 1
 		given()
-			.queryParam("appid", "7acb383db14865b98b88199b3d451599")
+			.queryParam("appid", "7acb383db14865b98b88199b3d451599")// pass API Key here
 		.when()
 			.get("https://openweathermap.org/forecast16#parameter")
 		.then()
