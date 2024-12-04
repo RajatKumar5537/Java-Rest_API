@@ -1,4 +1,4 @@
-package Local_RestAPI;
+package RestAssured_API;
 /*
  * How many ways we create request body?
 1.	HashMap
@@ -20,20 +20,18 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.HashMap;
 
-public class DifferentWayToCreatePostRequest {
+/*
+		"id": "2",
+		"name": "Swarna",
+		"location": "India",
+		"mobile": "34898598",
+		"designation": [
+		  "QA",
+		  "Automation"
+		]
+*/
 
-	
-	/*
-	 * "id": "2",
-    "name": "Swarna",
-    "location": "India",
-    "mobile": "34898598",
-    "designation": [
-      "QA",
-      "Automation"
-    ]
-	 */
-	
+public class DifferentWayToCreatePostRequest {
 //	@Test
 	public void testPostUsingHashMap() {
 		HashMap data = new HashMap();

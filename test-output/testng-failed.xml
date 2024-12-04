@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Local_RestAPI.DifferentWayToCreatePostRequest">
+      <class name="API_Chaining.CreateUser">
         <methods>
-          <include name="testPostUsingExternal_JSON_Class"/>
+          <include name="postUser"/>
         </methods>
-      </class> <!-- Local_RestAPI.DifferentWayToCreatePostRequest -->
+      </class> <!-- API_Chaining.CreateUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
